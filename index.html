@@ -3,13 +3,13 @@
 <title>Dingabadonga Military</title>
 <div class="navbar">
 <div class="title">DINGABADONGA MILITARY</div>
-<div class="contact" href="#contact">CONTACT US</div>
+<div class="contact" onclick="changeHash('#contact')">CONTACT US</div>
 <i class="material-icons" onclick="openMenu()">menu</i>
 </div>
 <div class="hero" id="hero">
 <div class="text">JOIN TODAY AND BE PART OF THE BEST</div>
-<div class="details" href="https://discord.gg/fUNct74kmX">MORE DETAILS</div>
-<div class="scroll material-icons" href="#news">arrow_drop_down</div>
+<div class="details" onclick="window.open('https://discord.gg/fUNct74kmX')">MORE DETAILS</div>
+<div class="scroll material-icons" onclick="changeHash('#news')">arrow_drop_down</div>
 </div>
 <div id="news">
 <div class="container">
@@ -40,7 +40,7 @@ APPLICATION
 <div id="contact">
 <div class="title">CONTACT US</div>
 <div class="subtitle">Have a question or just want to learn more? We're here to help.</div>
-<div class="discord" href="https://discord.gg/fUNct74kmX">
+<div class="discord" onclick="window.open('https://discord.gg/fUNct74kmX')">
 <div class="logo material-icons">discord</div>
 <div class="text">JOIN OUR DISCORD</div>
 </div>
@@ -55,10 +55,10 @@ APPLICATION
 </div>
 <div class="menu" id="menu">
 <div class="title">DINGABADONGA MILITARY</div>
-<div class="button" href="#hero">HOME</div>
-<div class="button" href="#news">NEWS</div>
-<div class="button" href="#join">JOIN US</div>
-<div class="button" href="#contact">CONTACT US</div>
+<div class="button" onclick="changeHash('#hero')">HOME</div>
+<div class="button" onclick="changeHash('#news')">NEWS</div>
+<div class="button" onclick="changeHash('#join')">JOIN US</div>
+<div class="button" onclick="changeHash('#contact')">CONTACT US</div>
 <div class="close material-icons">close</div>
 </div>
 <link rel="stylesheet" href="/style.css">
