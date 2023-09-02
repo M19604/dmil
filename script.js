@@ -31,7 +31,7 @@ document.getElementById("menu").style.right = "-100%";
 function openMenu() {
 document.getElementById("menu").style.right = 0;
 }
-function changeHas(hash) {
+function changeHash(hash) {
 location.hash = "";
 location.hash = hash;
 }
